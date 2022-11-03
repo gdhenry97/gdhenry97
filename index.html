@@ -280,7 +280,8 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p><a href="mailto:ghenry@cmlibrary.org">ghenry@cmlibrary.org</a></p>
+<!-- Changed the color of this link to fix contrast issues -->
+                <p><a style="color:darkblue;" href="mailto:ghenry@cmlibrary.org">ghenry@cmlibrary.org</a></p>
               </div>
 
               <div class="phone">
@@ -319,7 +320,9 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+<!-- Changed color of the Send Message button to fix low contrast issues -->
+<!-- Added Bootstrap tooltip -->
+              <div class="text-center"><button type="submit" data-toggle="tooltip" data-placement="top" title="Send me a message!">Send Message</button></div>
             </form>
           </div>
 
